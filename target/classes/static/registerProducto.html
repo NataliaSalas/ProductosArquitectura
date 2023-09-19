@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/clienteStyle.css">
+  <link rel="stylesheet" href="css/semantic.css" />
+  <title>Productos</title>
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="js/semantic.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<body>
+  <section class="form-register">
+    <h4>Registro Producto</h4>
+    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese el nombre del prroducto" >
+    <input class="controls" type="text" name="referencia" id="referencia" placeholder="Ingrese la referencia" >
+    <input class="controls" type="text" name="clasificacion" id="clasificacion" placeholder="Ingrese clasificacion">
+    <input class="controls" type="text" name="marca" id="marca" placeholder="Ingrese marca">
+    <input class="controls" type="text" name="precio" id="precio" placeholder="Ingrese precio">
+    <input class="botons" type="submit" value="Registrar" onclick="saveProducto()">
+  </section>
+  <div id="parrilla" class="ui cards"></div>
+</body>
+<script src="js/ProductoScript.js"></script>
+</html>

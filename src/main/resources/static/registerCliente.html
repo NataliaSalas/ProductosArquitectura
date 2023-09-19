@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/clienteStyle.css">
+  <link rel="stylesheet" href="css/semantic.css" />
+  <title>Clientes</title>
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="js/semantic.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<body>
+  <section class="form-register">
+    <h4>Registro Cliente</h4>
+    <input class="controls" type="text" name="nombreEmpresa" id="nombreEmpresa" placeholder="Ingrese el nombre de la Empresa" >
+    <input class="controls" type="text" name="nombreDueno" id="nombreDueno" placeholder="Ingrese el nombre del Dueño" >
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Correo Electronico">
+    <input class="controls" type="text" name="direccion" id="direccion" placeholder="Dirección de la empresa">
+    <input class="controls" type="text" name="numero" id="numero" placeholder="Número de contacto">
+    <input class="controls" type="text" name="nit" id="nit" placeholder="NIT">
+    <input class="botons" type="submit" value="Registrar" onclick="saveCliente()">
+  </section>
+  <div id="parrilla" class="ui cards"></div>
+</body>
+<script src="js/ClienteScript.js"></script>
+</html>
