@@ -90,6 +90,7 @@ function paintProducto(r) {
                     <td>${r[i].precio}</td>
                     <td><a onclick="deleteProducto(${r[i].id})"><img src="../images/trash.png" class="ui image avatar"></a></td>
                     <td><img src="../images/edit.png" class="ui image avatar"></td>
+                    <td><img src="https://cdn-icons-png.flaticon.com/512/4255/4255971.png" class="ui image avatar"></td>
                 </tr>
         `;
     }
@@ -133,5 +134,9 @@ function deleteProducto(id){
         }
     })
 
-}
+    function search_product(){
 
+    }
+
+}
+  z

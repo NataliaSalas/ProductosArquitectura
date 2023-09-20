@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/semantic.css" />
+  <link rel="stylesheet" href="css/searchProduct.css"/>
+  <title>Buscar Producto</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="js/semantic.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/searchProduct.js"></script>
+</head>
+<body>
+<h1>Buscar productos en ferreapp</h1>
+<div class="container">
+  <div class="card">
+    <!-- Generador de Códigos QR -->
+    <h2>Generador del código qr</h2>
+    <label for="productInput">Ingresa el nombre del producto:</label>
+    <input type="text" id="productInput">
+    <button onclick="generateQR()">Generar QR</button>
+    <div id="qrcode"></div>
+  </div>
+
+  <div class="card">
+    <!-- Lector de Códigos QR -->
+    <h2>Lector de Códigos QR</h2>
+    <video id="qr-video" width="300" height="200" autoplay></video>
+    <div id="productInfo"></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#qrcode {
+    margin: 20px auto;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+}
+
+#qr-video {
+    margin: 20px auto;
+}
+
+#productInfo {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007BFF;
+    margin-top: 10px;
+}
+</style>
